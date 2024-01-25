@@ -14,4 +14,4 @@ const root = {
   request_id: 'ba1c9250-892a-46aa-b9d8-73450e61184c'
 }
 
-console.log(root.properties.title.title);
+console.log(root.properties.title.title)
