@@ -1,7 +1,7 @@
 import requests
 
 notion_token = 'secret_Ar4jiLvCbf1pJzNfb4KYs6hK5HfXFFnUqT26TSIw2dY'
-notion_id = "8c9d9a905a074adf8397951fd399a459"
+notion_id = "41d7fe9d6e8944feb7dc9d1191c33953"
 
 headers = {
     'Authorization' : f'Bearer {notion_token}',
