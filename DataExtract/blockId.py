@@ -1,7 +1,7 @@
 import requests
 
 notion_token = 'secret_Ar4jiLvCbf1pJzNfb4KYs6hK5HfXFFnUqT26TSIw2dY'
-notion_id = "41d7fe9d6e8944feb7dc9d1191c33953"
+notion_id = "41d7fe9d6e8944feb7dc9d1191c33953" # pageId 입력
 
 headers = {
     'Authorization' : f'Bearer {notion_token}',
@@ -9,6 +9,7 @@ headers = {
     'Notion-Version': '2022-06-28',
 }
 
+# block 아이디 출력을 요청
 response = requests.get(f'https://api.notion.com/v1/blocks/{notion_id}', headers=headers)
 
 if response.status_code == 200:

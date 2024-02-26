@@ -1,7 +1,7 @@
 import requests
 
 notion_token = 'secret_Ar4jiLvCbf1pJzNfb4KYs6hK5HfXFFnUqT26TSIw2dY'
-notion_id = "24219f95488346d4a2848161330ab506"
+notion_id = "41d7fe9d6e8944feb7dc9d1191c33953" # pageId 입력
 
 headers = {
     'Authorization' : f'Bearer {notion_token}',
@@ -9,6 +9,7 @@ headers = {
     'Notion-Version': '2022-06-28',
 }
 
+# 페이지 ID와 관련된 데이터 추출을 요청하는 로직
 response = requests.get(f'https://api.notion.com/v1/pages/{notion_id}', headers=headers)
 
 if response.status_code == 200:
