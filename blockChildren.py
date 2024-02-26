@@ -1,7 +1,7 @@
 import requests
 
 notion_token = 'secret_Ar4jiLvCbf1pJzNfb4KYs6hK5HfXFFnUqT26TSIw2dY'
-block_id = "24219f95-4883-46d4-a284-8161330ab506"  # 가져올 자식 블록들이 있는 블록의 ID를 여기에 입력하세요
+block_id = "7bd203b7-5744-4d8a-ab7c-7a7c7e437158"  # 가져올 자식 블록들이 있는 블록의 ID를 여기에 입력하세요
 
 headers = {
     'Authorization' : f'Bearer {notion_token}',
